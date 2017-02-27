@@ -1,0 +1,12 @@
+/app/music/
+/app/data/
+.idea/
+/app/bin/
+/app/release/
+/app/node_modules/
+*.exe
+*.py
+*Test*
+.directory
+/app/build/
+/app/cache/
