@@ -8,15 +8,20 @@
 
 ##搭建
 
-初始化：
+###初始化：
 
-需要安装好 [node.js](https://nodejs.org/en/) 环境。
+需要安装好 [node.js](https://nodejs.org/en/) 环境，使用 npm 安装依赖包：
 
-	
+	git clone https://github.com/issac2015/Cube-In-Electron.git
+	cd Cube-In-Electron\app
+	npm install 
+
+如果由于网络问题，安装不来依赖包，可以使用淘宝的 [cnpm](https://npm.taobao.org/) 来安装。
 
 
+###在[Electron](http://electron.atom.io/)平台中运行
 
-1、下载 [Electron](http://electron.atom.io/) 
+下载 [Electron](http://electron.atom.io/) 
 
 	git clone https://github.com/electron/electron.git
 
@@ -25,7 +30,7 @@
 [https://npm.taobao.org/mirrors/electron/](https://npm.taobao.org/mirrors/electron/)		
 如：[https://npm.taobao.org/mirrors/electron/1.6.1/electron-v1.6.1-win32-x64.zip](https://npm.taobao.org/mirrors/electron/1.6.1/electron-v1.6.1-win32-x64.zip)
 
-2、运行
+运行app应用
 
 方法一：解压压缩包，进入该目录，双击 “electron.exe”，然后把 “app” 文件夹拖拽进去即可运行。
 
@@ -38,7 +43,7 @@
 
 ##截图
 
-导入本地文件；
+导入本地音乐文件：
 
 <img src="/images/img1.png" style="display: block;margin: auto;width: 450px;"/>
 
