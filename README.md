@@ -29,7 +29,7 @@
 
 如：[https://npm.taobao.org/mirrors/electron/1.6.1/electron-v1.6.1-win32-x64.zip](https://npm.taobao.org/mirrors/electron/1.6.1/electron-v1.6.1-win32-x64.zip)
 
-如果你想在 Linux 系统或 Mac系统中运行，只需下载对应的 [Electron](http://electron.atom.io/) 平台即可。（不过我没有试过）
+如果你想在 Linux 系统或 Mac系统中运行，只需下载对应系统下的 [Electron](http://electron.atom.io/) 平台即可。
 
 2.2、运行 app 应用
 
