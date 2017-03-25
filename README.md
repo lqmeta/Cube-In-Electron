@@ -1,4 +1,4 @@
-#网易音乐盒
+# 网易音乐盒
 
 使用 [Electron](http://electron.atom.io/) 构建的网易云音乐的跨平台第三方客户端。
 
@@ -6,9 +6,9 @@
 
 我将该应用从 [NW.js](https://github.com/nwjs/nw.js) 平台迁移至  [Electron](http://electron.atom.io/) 平台运行。
 
-##搭建
+## 搭建
 
-###1、初始化：
+### 1、初始化：
 
 需要安装好 [node.js](https://nodejs.org/en/) 环境，使用 npm 安装依赖包：
 
@@ -19,7 +19,7 @@
 如果由于网络问题，安装不了依赖包，可以使用淘宝的 [cnpm](https://npm.taobao.org/) 来安装。
 
 
-###2、在 [Electron](http://electron.atom.io/) 平台中运行
+### 2、在 [Electron](http://electron.atom.io/) 平台中运行
 
 2.1、下载 [Electron](http://electron.atom.io/) 平台
 
@@ -41,7 +41,7 @@
 
 再次双击“electron.exe”就可以打开该应用。
 
-##截图
+## 截图
 
 导入本地音乐文件：
 
@@ -60,7 +60,7 @@
 <img src="/images/img4.png" style="display: block;margin: auto;width: 450px;"/>
 
 
-##备注
+## 备注
 
 这个文件夹`Cube-In-Electron\app\src`中存放的是 [Cube](https://github.com/stkevintan/Cube) 项目的源码，使用 [gulp](http://www.gulpjs.com.cn/) 打包后，[Cube](https://github.com/stkevintan/Cube) 项目生成的压缩文件输出在 `Cube-In-Electron\app\dist`文件夹中。
 
